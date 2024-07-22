@@ -219,7 +219,7 @@ What's in this repo:
         $ ./greedythenlattice.py ./irreducible.txt
         Start time: 2024-07-22 19:24:46.581885
         UP map written to ./irreducible.txt-upmap.txt
-        \# vertices: 10
+        #vertices: 10
         Removing dominators...
         removedominators, fixpoint iteration # 1
         removedominators, fixpoint iteration # 2
@@ -236,7 +236,7 @@ What's in this repo:
         $ ./greedythenlattice.py ./PLAIN_small_08.rmp
         Start time: 2024-07-22 19:24:58.001084
         UP map written to ./PLAIN_small_08.rmp-upmap.txt
-        \# vertices: 284
+        #vertices: 284
         Removing dominators...
         removedominators, fixpoint iteration # 1
         removedominators, edgenum: 1000
