@@ -216,54 +216,54 @@ What's in this repo:
 
  12) greedythenlattice.py: Ene et al.'s greedy, then lattic-based postprocessing from Section 5 of the paper.
 
-        $ ./greedythenlattice.py ./irreducible.txt
-        Start time: 2024-07-22 19:24:46.581885
-        UP map written to ./irreducible.txt-upmap.txt
-        #vertices: 10
-        Removing dominators...
-        removedominators, fixpoint iteration # 1
-        removedominators, fixpoint iteration # 2
-        em saved to ./irreducible.txt-em.txt
-        done!
-        len(rolesasperms): 0
-        Running greedy algorithm...
-        len(rolesasperms): 5
-        Running lattice-based shrinking...
-        len(rolesasperms): 5
-        End time: 2024-07-22 19:24:46.582534
-        Total time (seconds): 0.0001246929168701172
-        $
-        $ ./greedythenlattice.py ./PLAIN_small_08.rmp
-        Start time: 2024-07-22 19:24:58.001084
-        UP map written to ./PLAIN_small_08.rmp-upmap.txt
-        #vertices: 284
-        Removing dominators...
-        removedominators, fixpoint iteration # 1
-        removedominators, edgenum: 1000
-        removedominators, edgenum: 2000
-        removedominators, edgenum: 3000
-        removedominators, edgenum: 4000
-        removedominators, fixpoint iteration # 2
-        removedominators, edgenum: 1000
-        removedominators, edgenum: 2000
-        removedominators, edgenum: 3000
-        removedominators, edgenum: 4000
-        removedominators, fixpoint iteration # 3
-        removedominators, edgenum: 1000
-        removedominators, edgenum: 2000
-        removedominators, edgenum: 3000
-        removedominators, edgenum: 4000
-        em saved to ./PLAIN_small_08.rmp-em.txt
-        done!
-        len(rolesasperms): 3
-        Running greedy algorithm...
-        len(rolesasperms): 214
-        Running lattice-based shrinking...
-        niter: 1000 ...
-        len(rolesasperms): 153
-        End time: 2024-07-22 19:25:00.595101
-        Total time (seconds): 0.018294334411621094
-        $
+	$ ./greedythenlattice.py ./irreducible.txt
+	Start time: 2024-07-22 19:24:46.581885
+	UP map written to ./irreducible.txt-upmap.txt
+	# vertices: 10
+	Removing dominators...
+	removedominators, fixpoint iteration # 1
+	removedominators, fixpoint iteration # 2
+	em saved to ./irreducible.txt-em.txt
+	done!
+	len(rolesasperms): 0
+	Running greedy algorithm...
+	len(rolesasperms): 5
+	Running lattice-based shrinking...
+	len(rolesasperms): 5
+	End time: 2024-07-22 19:24:46.582534
+	Total time (seconds): 0.0001246929168701172
+	$
+	$ ./greedythenlattice.py ./PLAIN_small_08.rmp
+	Start time: 2024-07-22 19:24:58.001084
+	UP map written to ./PLAIN_small_08.rmp-upmap.txt
+	# vertices: 284
+	Removing dominators...
+	removedominators, fixpoint iteration # 1
+	removedominators, edgenum: 1000
+	removedominators, edgenum: 2000
+	removedominators, edgenum: 3000
+	removedominators, edgenum: 4000
+	removedominators, fixpoint iteration # 2
+	removedominators, edgenum: 1000
+	removedominators, edgenum: 2000
+	removedominators, edgenum: 3000
+	removedominators, edgenum: 4000
+	removedominators, fixpoint iteration # 3
+	removedominators, edgenum: 1000
+	removedominators, edgenum: 2000
+	removedominators, edgenum: 3000
+	removedominators, edgenum: 4000
+	em saved to ./PLAIN_small_08.rmp-em.txt
+	done!
+	len(rolesasperms): 3
+	Running greedy algorithm...
+	len(rolesasperms): 214
+	Running lattice-based shrinking...
+	niter: 1000 ...
+	len(rolesasperms): 153
+	End time: 2024-07-22 19:25:00.595101
+	Total time (seconds): 0.018294334411621094
+	$
 
  The following 4 are programs used for our heuristic from Section 5 of the paper. Does require manual intervention while running. So please contact the author for help running these. A quick-n-dirty description of each is provided below.
 
