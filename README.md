@@ -5,7 +5,7 @@ Convert an access matrix to a role-based policy in a manner that minimizes the n
 Mahesh Tripunitara
 tripunit@uwaterloo.ca
 
-Released under the MIT license (see LICENSE file). Companion paper: https://arxiv.org/abs/XXXX.XXXXX
+Released under the MIT license (see LICENSE file). Companion paper: http://arxiv.org/abs/2407.15278
 
 What's in this repo:
 
